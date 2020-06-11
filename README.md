@@ -8,13 +8,16 @@ PowerShell Module to interact with the [VMware Workspace One Access](https://blo
 
 ## Prerequisites
 * [PowerCLI 12.0](https://code.vmware.com/web/tool/12.0.0/vmware-powercli) or newer
-* VMware Cloud on AWS scoped [Refresh Token](https://docs.vmware.com/en/VMware-Cloud-services/services/Using-VMware-Cloud-Services/GUID-E2A3B1C1-E9AD-4B00-A6B6-88D31FCDDF7C.html)
 
 ## Functions
 
-* Connect-VmcNotification
-* Get-VmcNotificationEvent
-* Get-VmcNotificationWebhook
-* New-VmcNotificationWebhook
-* Remove-VmcNotificationWebhook
-* Test-VmcNotificationWebhook
+* Connect-WorkspaceOneAccess
+* Get-WSDirectory
+* Remove-WSDirectory
+* New-WSJitDirectory
+* Get-WSOrgNetwork
+* Get-WSIdentityProvider
+* New-WS3rdPartyIdentityProvider
+* Remove-WS3rdPartyIdentityProvider
+* Get-UEMConfig
+* Remove-UEMConfig
